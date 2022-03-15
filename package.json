@@ -1,14 +1,17 @@
 {
   "name": "skola24",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Decent Skola24 library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "start": "tsc && node dist/main.js"
+    "build": "tsc",
+    "prepare": "tsc"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Johannes <thexydez@gmail.com>",
+  "license": "Public Domain",
   "dependencies": {
+    "axios": "^0.26.1",
     "typescript": "^4.6.2"
   },
   "devDependencies": {
